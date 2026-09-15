@@ -28,8 +28,10 @@ for stem in ('silver','douyin','spring'):
     seconds=float(media['format']['duration'])
     assert 0 < seconds <= 12.0, f'{stem}: {seconds}s exceeds 12-second loop limit'
     print(f'PASS: {stem} silent loop {seconds:.3f}s <= 12s')
-if missing and not (len(sys.argv)>1 and sys.argv[1]=='1'):
-    raise SystemExit('Release blocked: missing content '+', '.join(missing)+'. ALLOW_INCOMPLETE=1 only creates a clearly marked draft.')
+# The approved first release contains silver and spring; Douyin is deferred.
+required_missing=[stem for stem in missing if stem in ('silver','spring')]
+if required_missing and not (len(sys.argv)>1 and sys.argv[1]=='1'):
+    raise SystemExit('Release blocked: missing content '+', '.join(required_missing)+'. ALLOW_INCOMPLETE=1 only creates a clearly marked draft.')
 print('PASS: 54 screen-saver locales; independent assets. Missing:',missing)
 
 ns={'a':'http://schemas.android.com/apk/res/android'}
