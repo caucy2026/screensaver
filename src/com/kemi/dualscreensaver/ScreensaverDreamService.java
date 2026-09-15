@@ -19,6 +19,8 @@ public final class ScreensaverDreamService extends DreamService
         implements DisplayManager.DisplayListener {
     static ScreensaverDreamService active;
     private boolean secondaryActivityStarted;
+    private static long independentHandoffDeadline;
+    private boolean independentHandoff;
     private static final String TAG="KemiScreensaver";
     private Panel mainPanel,secondaryPanel;
     private Presentation presentation;
@@ -37,6 +39,8 @@ public final class ScreensaverDreamService extends DreamService
     @Override public void onAttachedToWindow() {
         super.onAttachedToWindow();
         cleanupStarted=false; secondaryActivityStarted=false; active=this; exitRequested.set(false);
+        independentHandoff=android.os.SystemClock.uptimeMillis()<independentHandoffDeadline;
+        independentHandoffDeadline=0;
         setInteractive(false); setFullscreen(true); setScreenBright(true);
         if(!ScreensaverCatalog.complete(getAssets())) { Log.e(TAG,"All active videos are required"); finish(); return; }
         session=ScreensaverRenderer.beginSession(getAssets(),ScreensaverCatalog.selected(this));
@@ -57,6 +61,26 @@ public final class ScreensaverDreamService extends DreamService
         }
         if(display==null || main==null || (main.getDisplayId()!=0 && main.getDisplayId()!=2)) {
             Log.e(TAG,"Expected S1 displays unavailable: main="+(main==null?"null":main.getDisplayId())+" D2="+(display!=null)); finish(); return;
+        }
+        // S1 DreamDisplayController forces a DreamMirror layer over D2 for normal
+        // dreams. Its component-preview path keeps independent displays. Hand off
+        // once per session; consume the deadline on attach to prevent recursion.
+        if(main.getDisplayId()==0 && !independentHandoff) {
+            try {
+                independentHandoffDeadline=android.os.SystemClock.uptimeMillis()+10000;
+                Object binder=Class.forName("android.os.ServiceManager").getMethod("getService",String.class).invoke(null,"dreams");
+                Object manager=Class.forName("android.service.dreams.IDreamManager$Stub").getMethod("asInterface",android.os.IBinder.class).invoke(null,binder);
+                Class<?> api=Class.forName("android.service.dreams.IDreamManager");
+                android.content.ComponentName component=new android.content.ComponentName(this,ScreensaverDreamService.class);
+                try { api.getMethod("testDream",android.content.ComponentName.class).invoke(manager,component); }
+                catch(NoSuchMethodException e) { api.getMethod("testDream",int.class,android.content.ComponentName.class).invoke(manager,android.os.Process.myUid()/100000,component); }
+                Log.i(TAG,"Independent display handoff requested; avoid firmware DreamMirror");
+                return;
+            } catch(Exception e) {
+                independentHandoffDeadline=0;
+                Log.e(TAG,"Independent display handoff failed",e);
+                requestExit("mirror-handoff-failure"); return;
+            }
         }
         final int secondaryId=main.getDisplayId()==0?2:0;
         display=displays.getDisplay(secondaryId);

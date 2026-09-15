@@ -102,8 +102,9 @@ public final class SettingsActivity extends Activity {
     }
     private boolean enableDream() {
         if(!ScreensaverCatalog.complete(getAssets())) { status.setText(text("pending")); return false; }
-        String[] keys={"screensaver_components","screensaver_activate_on_sleep","screensaver_enabled"};
-        String[] values={DREAM.flattenToString(),"1","1"};
+        // S1 firmware uses the default component for non-preview idle dreams.
+        String[] keys={"screensaver_components","screensaver_default_component","screen_protection_plugged","screensaver_activate_on_sleep","screensaver_enabled"};
+        String[] values={DREAM.flattenToString(),DREAM.flattenToString(),DREAM.flattenToString(),"1","1"};
         String[] old=new String[keys.length]; int changed=0;
         try {
             getPackageManager().getServiceInfo(DREAM,0);
