@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">運動人像 · 抖音 AI</string>
+  <string name="pending">影片待匯入</string>
+  <string name="enable">啟用螢幕保護程式</string>
+  <string name="preview">立即執行</string>
+  <string name="system_settings">系統螢幕保護設定</string>
+  <string name="enabled">螢幕保護程式已啟用</string>
+  <string name="error">操作未完成，請檢查服務與系統設定。</string>
+  <string name="description">雙螢幕無聲循環，輕觸任一螢幕退出。</string>
+  <string name="silver_title">銀飾人像</string>
+  <string name="exit_button">退出</string>
+  <string name="playlist_rule">每次啟動隨機選擇 A 或 C，本次持續循環該影片，直到退出。</string>
+  <string name="spring_title">春之舞</string>
+</resources>

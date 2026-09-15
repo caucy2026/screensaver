@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sportinis portretas · Douyin AI</string>
+  <string name="pending">Vaizdo įrašas dar neimportuotas</string>
+  <string name="enable">Įjungti užsklandą</string>
+  <string name="preview">Paleisti dabar</string>
+  <string name="system_settings">Sistemos nustatymai</string>
+  <string name="enabled">Užsklanda įjungta</string>
+  <string name="error">Nepavyko užbaigti. Patikrinkite tarnybą ir sistemos nustatymus.</string>
+  <string name="description">Kartojimas be garso. Palieskite bet kurį ekraną, kad išeitumėte.</string>
+  <string name="silver_title">Sidabriniai papuošalai</string>
+  <string name="exit_button">Išeiti</string>
+  <string name="playlist_rule">Pradžioje atsitiktinai pasirenkamas A arba C ir kartojamas iki išėjimo.</string>
+  <string name="spring_title">Pavasario šokis</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">ภาพบุคคลแนวสปอร์ต · Douyin AI</string>
+  <string name="pending">ยังไม่ได้นำเข้าวิดีโอ</string>
+  <string name="enable">เปิดโปรแกรมรักษาหน้าจอ</string>
+  <string name="preview">เริ่มตอนนี้</string>
+  <string name="system_settings">การตั้งค่าระบบ</string>
+  <string name="enabled">เปิดโปรแกรมรักษาหน้าจอแล้ว</string>
+  <string name="error">ดำเนินการไม่สำเร็จ โปรดตรวจสอบบริการและการตั้งค่าระบบ</string>
+  <string name="description">เล่นวนแบบไม่มีเสียง แตะหน้าจอใดก็ได้เพื่อออก</string>
+  <string name="silver_title">เครื่องประดับเงิน</string>
+  <string name="exit_button">ออก</string>
+  <string name="playlist_rule">แต่ละครั้งสุ่มเลือก A หรือ C แล้วเล่นวิดีโอนั้นวนซ้ำจนกว่าจะออก</string>
+  <string name="spring_title">ระบำฤดูใบไม้ผลิ</string>
+</resources>

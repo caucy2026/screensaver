@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">விளையாட்டு உருவப்படம் · Douyin AI</string>
+  <string name="pending">வீடியோ இன்னும் இறக்குமதி செய்யப்படவில்லை</string>
+  <string name="enable">திரை சேமிப்பானை இயக்கு</string>
+  <string name="preview">இப்போதே தொடங்கு</string>
+  <string name="system_settings">கணினி அமைப்புகள்</string>
+  <string name="enabled">திரை சேமிப்பான் இயக்கப்பட்டது</string>
+  <string name="error">முடிக்க முடியவில்லை. சேவையையும் கணினி அமைப்புகளையும் சரிபார்க்கவும்.</string>
+  <string name="description">ஒலியின்றி மீண்டும் இயங்கும். வெளியேற ஏதேனும் திரையைத் தொடவும்.</string>
+  <string name="silver_title">வெள்ளி அணிகலன்கள்</string>
+  <string name="exit_button">வெளியேறு</string>
+  <string name="playlist_rule">ஒவ்வொரு தொடக்கத்திலும் A அல்லது C சீரற்ற முறையில் தேர்வாகி, வெளியேறும் வரை அதே வீடியோ மீண்டும் இயங்கும்.</string>
+  <string name="spring_title">வசந்த நடனம்</string>
+</resources>

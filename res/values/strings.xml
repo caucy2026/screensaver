@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sport portrait · Douyin AI</string>
+  <string name="pending">Video not yet imported</string>
+  <string name="enable">Enable screensaver</string>
+  <string name="preview">Start now</string>
+  <string name="system_settings">System settings</string>
+  <string name="enabled">Screensaver enabled</string>
+  <string name="error">Unable to complete. Check the service and system settings.</string>
+  <string name="description">Silent loop. Touch either screen to exit.</string>
+  <string name="silver_title">Silver Adornments</string>
+  <string name="exit_button">Exit</string>
+  <string name="playlist_rule">Each start randomly selects A or C and loops that video until exit.</string>
+  <string name="spring_title">Spring Dance</string>
+</resources>

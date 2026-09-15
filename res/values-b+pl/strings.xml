@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Portret sportowy · Douyin AI</string>
+  <string name="pending">Film nie został jeszcze zaimportowany</string>
+  <string name="enable">Włącz wygaszacz</string>
+  <string name="preview">Uruchom teraz</string>
+  <string name="system_settings">Ustawienia systemu</string>
+  <string name="enabled">Wygaszacz włączony</string>
+  <string name="error">Nie można ukończyć. Sprawdź usługę i ustawienia systemu.</string>
+  <string name="description">Pętla bez dźwięku. Dotknij dowolnego ekranu, aby wyjść.</string>
+  <string name="silver_title">Srebrne ozdoby</string>
+  <string name="exit_button">Wyjdź</string>
+  <string name="playlist_rule">Przy uruchomieniu losowane jest A lub C i powtarzane aż do wyjścia.</string>
+  <string name="spring_title">Taniec wiosny</string>
+</resources>

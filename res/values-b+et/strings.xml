@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Spordiportree · Douyin AI</string>
+  <string name="pending">Videot pole veel imporditud</string>
+  <string name="enable">Lülita ekraanisäästja sisse</string>
+  <string name="preview">Käivita kohe</string>
+  <string name="system_settings">Süsteemi seaded</string>
+  <string name="enabled">Ekraanisäästja on sisse lülitatud</string>
+  <string name="error">Lõpetamine ebaõnnestus. Kontrollige teenust ja süsteemi seadeid.</string>
+  <string name="description">Helitu kordus. Väljumiseks puudutage kumbagi ekraani.</string>
+  <string name="silver_title">Hõbeehted</string>
+  <string name="exit_button">Välju</string>
+  <string name="playlist_rule">Alguses valitakse juhuslikult A või C ja seda korratakse väljumiseni.</string>
+  <string name="spring_title">Kevadtants</string>
+</resources>

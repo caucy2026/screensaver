@@ -1,0 +1,10 @@
+{
+  "source": "assets/set32_video.mp4",
+  "source_start_frame": 501,
+  "source_end_frame_inclusive": 572,
+  "crossfade_frames": 9,
+  "output_frames": 63,
+  "duration_seconds": 2.1,
+  "reason": "Same portrait shot with compatible head/body pose; preserve natural speed and original wallpaper source",
+  "new_ai_processing": false
+}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Urheilumuotokuva · Douyin AI</string>
+  <string name="pending">Videota ei ole vielä tuotu</string>
+  <string name="enable">Ota näytönsäästäjä käyttöön</string>
+  <string name="preview">Käynnistä nyt</string>
+  <string name="system_settings">Järjestelmäasetukset</string>
+  <string name="enabled">Näytönsäästäjä käytössä</string>
+  <string name="error">Ei voitu suorittaa. Tarkista palvelu ja järjestelmäasetukset.</string>
+  <string name="description">Äänetön toisto. Poistu koskettamalla jompaakumpaa näyttöä.</string>
+  <string name="silver_title">Hopeakorut</string>
+  <string name="exit_button">Poistu</string>
+  <string name="playlist_rule">Alussa valitaan satunnaisesti A tai C ja samaa videota toistetaan poistumiseen asti.</string>
+  <string name="spring_title">Kevättanssi</string>
+</resources>

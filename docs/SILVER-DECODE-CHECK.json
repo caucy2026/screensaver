@@ -1,0 +1,12 @@
+{
+  "path": "assets/silver_video.mp4",
+  "codec": "hevc (Main) (hvc1 / 0x31637668)",
+  "width": 2560,
+  "height": 1920,
+  "fps": 30.0,
+  "duration_seconds": 26.5,
+  "audio_streams": 0,
+  "black_intervals": [],
+  "full_decode_passed": true,
+  "decode_errors": ""
+}

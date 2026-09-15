@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Спортски портрет · Douyin AI</string>
+  <string name="pending">Видео још није увезен</string>
+  <string name="enable">Укључи чувар екрана</string>
+  <string name="preview">Покрени сада</string>
+  <string name="system_settings">Системска подешавања</string>
+  <string name="enabled">Чувар екрана је укључен</string>
+  <string name="error">Није могуће завршити. Проверите услугу и системска подешавања.</string>
+  <string name="description">Понављање без звука. Додирните било који екран за излаз.</string>
+  <string name="silver_title">Сребрни украси</string>
+  <string name="exit_button">Излаз</string>
+  <string name="playlist_rule">При покретању се насумично бира A или C и понавља до изласка.</string>
+  <string name="spring_title">Пролећни плес</string>
+</resources>

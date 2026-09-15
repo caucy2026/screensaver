@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">រូបភាពបែបកីឡា · Douyin AI</string>
+  <string name="pending">មិនទាន់បាននាំចូលវីដេអូ</string>
+  <string name="enable">បើកកម្មវិធីរក្សាអេក្រង់</string>
+  <string name="preview">ចាប់ផ្តើមឥឡូវនេះ</string>
+  <string name="system_settings">ការកំណត់ប្រព័ន្ធ</string>
+  <string name="enabled">បានបើកកម្មវិធីរក្សាអេក្រង់</string>
+  <string name="error">មិនអាចបញ្ចប់បានទេ។ សូមពិនិត្យសេវាកម្ម និងការកំណត់ប្រព័ន្ធ។</string>
+  <string name="description">ចាក់ឡើងវិញដោយគ្មានសំឡេង។ ប៉ះអេក្រង់ណាមួយដើម្បីចាកចេញ។</string>
+  <string name="silver_title">គ្រឿងអលង្ការប្រាក់</string>
+  <string name="exit_button">ចាកចេញ</string>
+  <string name="playlist_rule">រាល់ការចាប់ផ្តើមជ្រើស A ឬ C ដោយចៃដន្យ ហើយចាក់វីដេអូនោះឡើងវិញរហូតដល់ចាកចេញ។</string>
+  <string name="spring_title">របាំនិទាឃរដូវ</string>
+</resources>

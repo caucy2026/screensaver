@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-14",
+  "version": "1.0.3-draft",
+  "app_name": "KEMI屏保",
+  "status": "UNSIGNED_DRAFT_PENDING_SIGNATURE_AND_CONTENT_DECISION",
+  "icon": "Original Android vector plus adaptive icon; silver/blue dual display on dark rounded background",
+  "media_A": {
+    "video_sha256": "b7174b02ee45130799f9974b46e0454855f39673920d81fb2ffb5595db5c5500",
+    "decoded_frames": 63,
+    "duration_seconds": 2.1,
+    "sample_size": [
+      96,
+      72
+    ],
+    "loop_seam_mean_absolute_rgb_delta": 1.4593943357467651,
+    "median_adjacent_delta": 1.2092013359069824,
+    "p95_adjacent_delta": 2.450180768966675,
+    "max_adjacent_delta": 3.5134549140930176,
+    "original_set32_sha256": "9cd9b1af1ad8dec9006b2611d110cef4a474db2fe167f27eabcf444a1e097545",
+    "device_loop_observation": false
+  },
+  "media_C": {
+    "seconds": 10.166666666666666,
+    "frames": 305,
+    "unchanged_from": "1.0.2",
+    "audio_streams": 0
+  },
+  "media_B": "Source not acquired",
+  "max_loop_seconds": 12,
+  "build_duration_gate": "PASS",
+  "locales": 54,
+  "java_compile": true,
+  "apk_packaging": true,
+  "device": "192.168.3.63:5555",
+  "device_connected": true,
+  "installed": false,
+  "device_rotations": {
+    "D0": [
+      "free",
+      "default"
+    ],
+    "D2": [
+      "free",
+      "default"
+    ]
+  },
+  "rotation_changed": false,
+  "device_screenshots": [],
+  "signing": "Pending explicit authorization of documentation-sourced password use",
+  "content_decision": "Pending user choice whether to test A/C while B absent",
+  "original_wallpaper_changed": false,
+  "apks": [
+    {
+      "apk": "/Volumes/ORICO/kemi/kwallpagers/project/kemi-s1-20260825/kwallpagers-douyin-screensaver/screensaver/release/KEMI屏保-v1.0.3-draft-unsigned.apk",
+      "package": "com.kemi.dualscreensaver",
+      "version": "1.0.3-draft",
+      "code": 10003,
+      "bytes": 106548,
+      "sha256": "28602ad8019b15c46b5b78db823a78aee5a1c1fde010a5aa8c659acdf08b1b98",
+      "certificate_sha256": null
+    },
+    {
+      "apk": "/Volumes/ORICO/kemi/kwallpagers/project/kemi-s1-20260825/kwallpagers-douyin-screensaver/screensaver/release/KEMI屏保服务-v1.0.3-draft-unsigned.apk",
+      "package": "com.kemi.dualscreensaver.service",
+      "version": "1.0.3-draft",
+      "code": 10003,
+      "bytes": 29458779,
+      "sha256": "09b705019bfd0b54752ddce237d45c64b078158c056ccdfcbb1c1e2636b02162",
+      "certificate_sha256": null
+    }
+  ]
+}

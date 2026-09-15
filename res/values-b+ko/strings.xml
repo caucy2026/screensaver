@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">스포츠 인물 영상 · Douyin AI</string>
+  <string name="pending">동영상을 아직 가져오지 않았습니다</string>
+  <string name="enable">화면 보호기 사용</string>
+  <string name="preview">지금 시작</string>
+  <string name="system_settings">시스템 설정</string>
+  <string name="enabled">화면 보호기가 켜졌습니다</string>
+  <string name="error">완료할 수 없습니다. 서비스와 시스템 설정을 확인하세요.</string>
+  <string name="description">무음 반복 재생. 어느 화면이든 터치하면 종료됩니다.</string>
+  <string name="silver_title">은빛 장신구</string>
+  <string name="exit_button">종료</string>
+  <string name="playlist_rule">시작할 때 A C 중 하나를 무작위로 골라 종료할 때까지 반복합니다.</string>
+  <string name="spring_title">봄의 춤</string>
+</resources>

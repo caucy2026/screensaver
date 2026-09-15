@@ -1,0 +1,15 @@
+{
+  "video_sha256": "b7174b02ee45130799f9974b46e0454855f39673920d81fb2ffb5595db5c5500",
+  "decoded_frames": 63,
+  "duration_seconds": 2.1,
+  "sample_size": [
+    96,
+    72
+  ],
+  "loop_seam_mean_absolute_rgb_delta": 1.4593943357467651,
+  "median_adjacent_delta": 1.2092013359069824,
+  "p95_adjacent_delta": 2.450180768966675,
+  "max_adjacent_delta": 3.5134549140930176,
+  "original_set32_sha256": "9cd9b1af1ad8dec9006b2611d110cef4a474db2fe167f27eabcf444a1e097545",
+  "device_loop_observation": false
+}

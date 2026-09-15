@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">پرتره ورزشی · Douyin AI</string>
+  <string name="pending">ویدیو هنوز وارد نشده است</string>
+  <string name="enable">فعال‌سازی محافظ صفحه</string>
+  <string name="preview">شروع اکنون</string>
+  <string name="system_settings">تنظیمات سیستم</string>
+  <string name="enabled">محافظ صفحه فعال شد</string>
+  <string name="error">تکمیل نشد. سرویس و تنظیمات سیستم را بررسی کنید.</string>
+  <string name="description">تکرار بی‌صدا. برای خروج یکی از نمایشگرها را لمس کنید.</string>
+  <string name="silver_title">زیورآلات نقره‌ای</string>
+  <string name="exit_button">خروج</string>
+  <string name="playlist_rule">هر بار A یا C تصادفی انتخاب می‌شود و همان ویدیو تا خروج تکرار می‌شود.</string>
+  <string name="spring_title">رقص بهار</string>
+</resources>

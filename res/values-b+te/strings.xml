@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">క్రీడా పోర్ట్రెయిట్ · Douyin AI</string>
+  <string name="pending">వీడియో ఇంకా దిగుమతి కాలేదు</string>
+  <string name="enable">స్క్రీన్‌సేవర్‌ను ప్రారంభించు</string>
+  <string name="preview">ఇప్పుడే ప్రారంభించు</string>
+  <string name="system_settings">సిస్టమ్ సెట్టింగ్‌లు</string>
+  <string name="enabled">స్క్రీన్‌సేవర్ ప్రారంభమైంది</string>
+  <string name="error">పూర్తి చేయలేకపోయింది. సేవ మరియు సిస్టమ్ సెట్టింగ్‌లను తనిఖీ చేయండి.</string>
+  <string name="description">శబ్దం లేకుండా పునరావృతం. నిష్క్రమించడానికి ఏ తెరనైనా తాకండి.</string>
+  <string name="silver_title">వెండి ఆభరణాలు</string>
+  <string name="exit_button">నిష్క్రమించు</string>
+  <string name="playlist_rule">ప్రతి ప్రారంభంలో A లేదా C యాదృచ్ఛికంగా ఎంచుకోబడి నిష్క్రమించే వరకు అదే వీడియో పునరావృతమవుతుంది.</string>
+  <string name="spring_title">వసంత నృత్యం</string>
+</resources>

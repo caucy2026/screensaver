@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Спортивный портрет · Douyin AI</string>
+  <string name="pending">Видео ещё не импортировано</string>
+  <string name="enable">Включить заставку</string>
+  <string name="preview">Запустить сейчас</string>
+  <string name="system_settings">Системные настройки</string>
+  <string name="enabled">Заставка включена</string>
+  <string name="error">Не удалось завершить. Проверьте службу и системные настройки.</string>
+  <string name="description">Повтор без звука. Коснитесь любого экрана для выхода.</string>
+  <string name="silver_title">Серебряные украшения</string>
+  <string name="exit_button">Выход</string>
+  <string name="playlist_rule">При запуске случайно выбирается A или C и повторяется до выхода.</string>
+  <string name="spring_title">Весенний танец</string>
+</resources>

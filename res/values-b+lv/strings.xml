@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sporta portrets · Douyin AI</string>
+  <string name="pending">Video vēl nav importēts</string>
+  <string name="enable">Ieslēgt ekrānsaudzētāju</string>
+  <string name="preview">Sākt tagad</string>
+  <string name="system_settings">Sistēmas iestatījumi</string>
+  <string name="enabled">Ekrānsaudzētājs ieslēgts</string>
+  <string name="error">Neizdevās pabeigt. Pārbaudiet pakalpojumu un sistēmas iestatījumus.</string>
+  <string name="description">Atkārtošana bez skaņas. Pieskarieties jebkuram ekrānam, lai izietu.</string>
+  <string name="silver_title">Sudraba rotas</string>
+  <string name="exit_button">Iziet</string>
+  <string name="playlist_rule">Sākumā nejauši izvēlas A vai C un atkārto līdz iziešanai.</string>
+  <string name="spring_title">Pavasara deja</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Picha ya michezo · Douyin AI</string>
+  <string name="pending">Video bado haijaingizwa</string>
+  <string name="enable">Washa kihifadhi skrini</string>
+  <string name="preview">Anza sasa</string>
+  <string name="system_settings">Mipangilio ya mfumo</string>
+  <string name="enabled">Kihifadhi skrini kimewashwa</string>
+  <string name="error">Imeshindikana kukamilisha. Angalia huduma na mipangilio ya mfumo.</string>
+  <string name="description">Rudia bila sauti. Gusa skrini yoyote ili kutoka.</string>
+  <string name="silver_title">Mapambo ya fedha</string>
+  <string name="exit_button">Toka</string>
+  <string name="playlist_rule">Kila mwanzo huchagua A au C kwa nasibu na kurudia video hiyo hadi utoke.</string>
+  <string name="spring_title">Ngoma ya masika</string>
+</resources>

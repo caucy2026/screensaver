@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">スポーツポートレート · Douyin AI</string>
+  <string name="pending">動画は未インポートです</string>
+  <string name="enable">スクリーンセーバーを有効化</string>
+  <string name="preview">今すぐ開始</string>
+  <string name="system_settings">システム設定</string>
+  <string name="enabled">スクリーンセーバーを有効にしました</string>
+  <string name="error">完了できません。サービスとシステム設定を確認してください。</string>
+  <string name="description">無音でループ再生。どちらかの画面をタッチして終了。</string>
+  <string name="silver_title">銀の装飾</string>
+  <string name="exit_button">終了</string>
+  <string name="playlist_rule">開始時に A・C からランダムに1つ選び、終了するまで同じ動画をループ再生します。</string>
+  <string name="spring_title">春の舞</string>
+</resources>

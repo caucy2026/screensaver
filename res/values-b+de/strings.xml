@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sportporträt · Douyin AI</string>
+  <string name="pending">Video noch nicht importiert</string>
+  <string name="enable">Bildschirmschoner aktivieren</string>
+  <string name="preview">Jetzt starten</string>
+  <string name="system_settings">Systemeinstellungen</string>
+  <string name="enabled">Bildschirmschoner aktiviert</string>
+  <string name="error">Vorgang fehlgeschlagen. Dienst und Systemeinstellungen prüfen.</string>
+  <string name="description">Stumme Endlosschleife. Zum Beenden einen Bildschirm berühren.</string>
+  <string name="silver_title">Silberschmuck</string>
+  <string name="exit_button">Beenden</string>
+  <string name="playlist_rule">Jeder Start wählt zufällig A oder C und wiederholt dieses Video bis zum Beenden.</string>
+  <string name="spring_title">Frühlingstanz</string>
+</resources>

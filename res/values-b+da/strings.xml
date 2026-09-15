@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sportsportræt · Douyin AI</string>
+  <string name="pending">Videoen er endnu ikke importeret</string>
+  <string name="enable">Aktivér pauseskærm</string>
+  <string name="preview">Start nu</string>
+  <string name="system_settings">Systemindstillinger</string>
+  <string name="enabled">Pauseskærm aktiveret</string>
+  <string name="error">Kunne ikke fuldføre. Kontrollér tjenesten og systemindstillingerne.</string>
+  <string name="description">Gentagelse uden lyd. Tryk på en af skærmene for at afslutte.</string>
+  <string name="silver_title">Sølvsmykker</string>
+  <string name="exit_button">Afslut</string>
+  <string name="playlist_rule">Hver start vælger tilfældigt A eller C og gentager videoen, indtil du afslutter.</string>
+  <string name="spring_title">Forårsdans</string>
+</resources>

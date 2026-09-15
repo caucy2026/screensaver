@@ -1,0 +1,40 @@
+{
+  "version": "1.0.9-draft",
+  "app_name": "KEMI双屏屏保",
+  "date": "2026-09-15",
+  "installed_on_63": true,
+  "version_code": 10009,
+  "icon": "Blue dominant glass dual screens, generated with built-in ImageGen",
+  "icon_asset": "res/drawable-nodpi/launcher_blue_glass.png",
+  "selected_content_playback": true,
+  "active_contents": [
+    "银饰人像",
+    "春之舞"
+  ],
+  "fps": 24,
+  "max_loop_seconds": 12,
+  "description_removed": true,
+  "letter_prefixes_removed": true,
+  "apks": [
+    {
+      "apk": "release/KEMI双屏屏保-v1.0.9-draft.apk",
+      "package": "com.kemi.dualscreensaver",
+      "version": "1.0.9-draft",
+      "code": 10009,
+      "bytes": 1209331,
+      "sha256": "f9a050c01fe9a4a5713b6d61d9f99b6ffbf49752885c965b9081c4258b92ba5b",
+      "certificate_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8"
+    },
+    {
+      "apk": "release/KEMI双屏屏保服务-v1.0.9-draft.apk",
+      "package": "com.kemi.dualscreensaver.service",
+      "version": "1.0.9-draft",
+      "code": 10009,
+      "bytes": 28013815,
+      "sha256": "e8484de3cee1fdb0c90a4152b4620f21bb2f0cedb8e2f4486357a74c5922efd5",
+      "certificate_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8"
+    }
+  ],
+  "verification": "Both signed APKs installed successfully; versions verified. Selection UI and selected spring content repeated loops verified on 1.0.8; 1.0.9 changes only icon.",
+  "limits": "D2 touch path and physical 24Hz not yet verified"
+}

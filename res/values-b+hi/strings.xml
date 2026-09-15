@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">खेल पोर्ट्रेट · Douyin AI</string>
+  <string name="pending">वीडियो अभी आयात नहीं हुआ है</string>
+  <string name="enable">स्क्रीनसेवर चालू करें</string>
+  <string name="preview">अभी शुरू करें</string>
+  <string name="system_settings">सिस्टम सेटिंग</string>
+  <string name="enabled">स्क्रीनसेवर चालू है</string>
+  <string name="error">पूरा नहीं हो सका। सेवा और सिस्टम सेटिंग जाँचें।</string>
+  <string name="description">बिना आवाज़ दोहराव। बाहर निकलने के लिए किसी भी स्क्रीन को छुएँ।</string>
+  <string name="silver_title">चाँदी के आभूषण</string>
+  <string name="exit_button">बाहर निकलें</string>
+  <string name="playlist_rule">हर बार A या C में से एक यादृच्छिक रूप से चुना जाता है और बाहर निकलने तक दोहराया जाता है।</string>
+  <string name="spring_title">वसंत नृत्य</string>
+</resources>

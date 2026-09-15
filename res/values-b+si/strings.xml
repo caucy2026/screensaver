@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">ක්‍රීඩා රුව · Douyin AI</string>
+  <string name="pending">වීඩියෝව තවම ආයාත කර නැත</string>
+  <string name="enable">තිර සුරැකුම සක්‍රිය කරන්න</string>
+  <string name="preview">දැන් අරඹන්න</string>
+  <string name="system_settings">පද්ධති සැකසුම්</string>
+  <string name="enabled">තිර සුරැකුම සක්‍රියයි</string>
+  <string name="error">සම්පූර්ණ කළ නොහැක. සේවාව සහ පද්ධති සැකසුම් පරීක්ෂා කරන්න.</string>
+  <string name="description">නිහඬව නැවත ධාවනය වේ. පිටවීමට ඕනෑම තිරයක් ස්පර්ශ කරන්න.</string>
+  <string name="silver_title">රිදී ආභරණ</string>
+  <string name="exit_button">පිටවන්න</string>
+  <string name="playlist_rule">සෑම ආරම්භයකදීම A හෝ C අහඹු ලෙස තෝරා පිටවන තුරු එම වීඩියෝව නැවත ධාවනය කරයි.</string>
+  <string name="spring_title">වසන්ත නර්තනය</string>
+</resources>

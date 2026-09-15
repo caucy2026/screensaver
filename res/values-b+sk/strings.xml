@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Športový portrét · Douyin AI</string>
+  <string name="pending">Video ešte nebolo importované</string>
+  <string name="enable">Zapnúť šetrič</string>
+  <string name="preview">Spustiť teraz</string>
+  <string name="system_settings">Nastavenia systému</string>
+  <string name="enabled">Šetrič je zapnutý</string>
+  <string name="error">Nedá sa dokončiť. Skontrolujte službu a nastavenia systému.</string>
+  <string name="description">Slučka bez zvuku. Dotykom ktorejkoľvek obrazovky ukončíte.</string>
+  <string name="silver_title">Strieborné ozdoby</string>
+  <string name="exit_button">Ukončiť</string>
+  <string name="playlist_rule">Pri spustení sa náhodne vyberie A alebo C a opakuje sa až do ukončenia.</string>
+  <string name="spring_title">Jarný tanec</string>
+</resources>

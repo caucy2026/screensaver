@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Retrato esportivo · Douyin AI</string>
+  <string name="pending">Vídeo ainda não importado</string>
+  <string name="enable">Ativar protetor de tela</string>
+  <string name="preview">Iniciar agora</string>
+  <string name="system_settings">Configurações do sistema</string>
+  <string name="enabled">Protetor de tela ativado</string>
+  <string name="error">Não foi possível concluir. Verifique o serviço e as configurações do sistema.</string>
+  <string name="description">Repetição sem som. Toque em qualquer tela para sair.</string>
+  <string name="silver_title">Adornos de prata</string>
+  <string name="exit_button">Sair</string>
+  <string name="playlist_rule">Cada início escolhe A ou C aleatoriamente e repete esse vídeo até sair.</string>
+  <string name="spring_title">Dança da primavera</string>
+</resources>

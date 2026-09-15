@@ -1,0 +1,17 @@
+{
+  "share_url": "https://m.toutiao.com/is/6QAOtLB5Br4/",
+  "resolved_url": "https://www.toutiao.com/video/7588389629731045419/",
+  "title": "冬天到了，春天还会远吗？",
+  "author": "春雨Rain_",
+  "sha256": "d2378526cbf512eccb57ad7f947af56b075f084f8f68f5c77c875938a09ee3fe",
+  "bytes": 6169870,
+  "selected_format": {
+    "Width": 1080,
+    "Height": 1920,
+    "Bitrate": 2602359,
+    "Codec": "h264",
+    "Duration": 18.967,
+    "Definition": "1080p"
+  },
+  "selection": "Highest resolution and bitrate exposed by page player: 1080p; alternatives 720p and 540p."
+}

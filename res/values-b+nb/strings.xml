@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Sportsportrett · Douyin AI</string>
+  <string name="pending">Videoen er ikke importert ennå</string>
+  <string name="enable">Aktiver skjermsparer</string>
+  <string name="preview">Start nå</string>
+  <string name="system_settings">Systeminnstillinger</string>
+  <string name="enabled">Skjermsparer aktivert</string>
+  <string name="error">Kunne ikke fullføre. Kontroller tjenesten og systeminnstillingene.</string>
+  <string name="description">Lydløs gjentakelse. Trykk på en av skjermene for å avslutte.</string>
+  <string name="silver_title">Sølvsmykker</string>
+  <string name="exit_button">Avslutt</string>
+  <string name="playlist_rule">Hver start velger tilfeldig A eller C og gjentar videoen til du avslutter.</string>
+  <string name="spring_title">Vårdans</string>
+</resources>

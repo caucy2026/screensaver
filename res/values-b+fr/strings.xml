@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Portrait sportif · Douyin AI</string>
+  <string name="pending">Vidéo pas encore importée</string>
+  <string name="enable">Activer l’économiseur</string>
+  <string name="preview">Démarrer maintenant</string>
+  <string name="system_settings">Paramètres système</string>
+  <string name="enabled">Économiseur activé</string>
+  <string name="error">Impossible de terminer. Vérifiez le service et les paramètres système.</string>
+  <string name="description">Boucle sans son. Touchez un écran pour quitter.</string>
+  <string name="silver_title">Parures argentées</string>
+  <string name="exit_button">Quitter</string>
+  <string name="playlist_rule">Chaque démarrage choisit A ou C au hasard et répète cette vidéo jusqu’à la sortie.</string>
+  <string name="spring_title">Danse du printemps</string>
+</resources>

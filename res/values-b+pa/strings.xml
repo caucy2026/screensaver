@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">ਖੇਡ ਪੋਰਟਰੇਟ · Douyin AI</string>
+  <string name="pending">ਵੀਡੀਓ ਹਾਲੇ ਆਯਾਤ ਨਹੀਂ ਕੀਤੀ</string>
+  <string name="enable">ਸਕ੍ਰੀਨਸੇਵਰ ਚਾਲੂ ਕਰੋ</string>
+  <string name="preview">ਹੁਣੇ ਸ਼ੁਰੂ ਕਰੋ</string>
+  <string name="system_settings">ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ</string>
+  <string name="enabled">ਸਕ੍ਰੀਨਸੇਵਰ ਚਾਲੂ ਹੈ</string>
+  <string name="error">ਪੂਰਾ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਸੇਵਾ ਅਤੇ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਜਾਂਚੋ।</string>
+  <string name="description">ਬਿਨਾਂ ਆਵਾਜ਼ ਦੁਹਰਾਓ। ਬਾਹਰ ਜਾਣ ਲਈ ਕਿਸੇ ਵੀ ਸਕ੍ਰੀਨ ਨੂੰ ਛੂਹੋ।</string>
+  <string name="silver_title">ਚਾਂਦੀ ਦੇ ਗਹਿਣੇ</string>
+  <string name="exit_button">ਬਾਹਰ ਜਾਓ</string>
+  <string name="playlist_rule">ਹਰ ਵਾਰ A ਜਾਂ C ਬੇਤਰਤੀਬੇ ਤੌਰ ਤੇ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਬਾਹਰ ਜਾਣ ਤੱਕ ਉਹੀ ਦੁਹਰਾਇਆ ਜਾਂਦਾ ਹੈ।</string>
+  <string name="spring_title">ਬਸੰਤ ਦਾ ਨਾਚ</string>
+</resources>

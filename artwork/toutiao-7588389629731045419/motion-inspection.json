@@ -1,0 +1,54 @@
+{
+  "frames": 569,
+  "crop": [
+    0,
+    336,
+    1080,
+    1440
+  ],
+  "scene_change_threshold": 0.15,
+  "scene_change_frames": [],
+  "endpoint_candidates": [
+    [
+      21.541341145833332,
+      34,
+      532
+    ],
+    [
+      21.592692057291668,
+      31,
+      531
+    ],
+    [
+      21.609049479166668,
+      30,
+      531
+    ],
+    [
+      21.663438585069443,
+      32,
+      532
+    ],
+    [
+      21.736002604166668,
+      33,
+      532
+    ],
+    [
+      21.742757161458332,
+      24,
+      531
+    ],
+    [
+      21.814208984375,
+      35,
+      532
+    ],
+    [
+      21.834092881944443,
+      23,
+      531
+    ]
+  ],
+  "composition": "Full-width 3:4 crop removes sky and pavement; face stays above waist-level screen seam. Raised fingertips and lowest foot positions can be clipped slightly; subject proportions unchanged."
+}

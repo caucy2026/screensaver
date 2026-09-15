@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Chân dung thể thao · Douyin AI</string>
+  <string name="pending">Chưa nhập video</string>
+  <string name="enable">Bật trình bảo vệ màn hình</string>
+  <string name="preview">Bắt đầu ngay</string>
+  <string name="system_settings">Cài đặt hệ thống</string>
+  <string name="enabled">Đã bật trình bảo vệ màn hình</string>
+  <string name="error">Không thể hoàn tất. Hãy kiểm tra dịch vụ và cài đặt hệ thống.</string>
+  <string name="description">Lặp lại không tiếng. Chạm vào một trong hai màn hình để thoát.</string>
+  <string name="silver_title">Trang sức bạc</string>
+  <string name="exit_button">Thoát</string>
+  <string name="playlist_rule">Mỗi lần bắt đầu chọn ngẫu nhiên A hoặc C và lặp lại video đó cho đến khi thoát.</string>
+  <string name="spring_title">Vũ điệu mùa xuân</string>
+</resources>

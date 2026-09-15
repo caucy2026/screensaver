@@ -1,0 +1,11 @@
+{
+  "source_start_frame": 26,
+  "source_end_frame_inclusive": 336,
+  "crossfade_frames": 6,
+  "output_frames": 305,
+  "fps": 30,
+  "duration_seconds": 10.166666666666666,
+  "method": "Output source s+n through e-n, followed by n tail/head blends alpha=(k+1)/n; last resolves to s+n-1, next loop starts s+n.",
+  "transition_weighted_proxy_delta": 34.455440521240234,
+  "rejected": "16.87s and 10.17s candidates had visible body ghosting. Choose a closer matching dance phrase with a shorter dissolve."
+}

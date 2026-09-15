@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">സ്പോർട്സ് പോർട്രെയ്റ്റ് · Douyin AI</string>
+  <string name="pending">വീഡിയോ ഇതുവരെ ഇറക്കുമതി ചെയ്തിട്ടില്ല</string>
+  <string name="enable">സ്ക്രീൻസേവർ പ്രവർത്തനക്ഷമമാക്കുക</string>
+  <string name="preview">ഇപ്പോൾ ആരംഭിക്കുക</string>
+  <string name="system_settings">സിസ്റ്റം ക്രമീകരണങ്ങൾ</string>
+  <string name="enabled">സ്ക്രീൻസേവർ പ്രവർത്തനക്ഷമമായി</string>
+  <string name="error">പൂർത്തിയാക്കാനായില്ല. സേവനവും സിസ്റ്റം ക്രമീകരണങ്ങളും പരിശോധിക്കുക.</string>
+  <string name="description">ശബ്ദമില്ലാത്ത ആവർത്തനം. പുറത്തുകടക്കാൻ ഏതെങ്കിലും സ്ക്രീനിൽ തൊടുക.</string>
+  <string name="silver_title">വെള്ളി ആഭരണങ്ങൾ</string>
+  <string name="exit_button">പുറത്തുകടക്കുക</string>
+  <string name="playlist_rule">ഓരോ തുടക്കത്തിലും A അല്ലെങ്കിൽ C ക്രമരഹിതമായി തിരഞ്ഞെടുത്ത് പുറത്തുകടക്കുംവരെ അതേ വീഡിയോ ആവർത്തിക്കും.</string>
+  <string name="spring_title">വസന്ത നൃത്തം</string>
+</resources>

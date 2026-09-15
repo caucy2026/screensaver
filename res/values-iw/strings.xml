@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">דיוקן ספורטיבי · Douyin AI</string>
+  <string name="pending">הסרטון טרם יובא</string>
+  <string name="enable">הפעלת שומר מסך</string>
+  <string name="preview">התחלה כעת</string>
+  <string name="system_settings">הגדרות מערכת</string>
+  <string name="enabled">שומר המסך הופעל</string>
+  <string name="error">לא ניתן להשלים. יש לבדוק את השירות והגדרות המערכת.</string>
+  <string name="description">לולאה ללא קול. יש לגעת באחד המסכים כדי לצאת.</string>
+  <string name="silver_title">תכשיטי כסף</string>
+  <string name="exit_button">יציאה</string>
+  <string name="playlist_rule">בכל התחלה נבחר A או C באקראי והסרטון חוזר בלולאה עד היציאה.</string>
+  <string name="spring_title">ריקוד האביב</string>
+</resources>

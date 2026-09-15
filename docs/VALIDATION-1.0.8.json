@@ -1,0 +1,35 @@
+{
+  "version": "1.0.8-draft",
+  "app_name": "KEMI双屏屏保",
+  "installed_on_63": true,
+  "description_removed": true,
+  "letter_prefixes_removed": true,
+  "active_contents": [
+    "银饰人像",
+    "春之舞"
+  ],
+  "selection": "Persistent selected content; blue border and pale blue background; manual selection supersedes random start",
+  "device_ui_verified": true,
+  "selected_device_content": 3,
+  "icon": "Dark background, silver-blue dual screens and cyan/blue light track",
+  "apks": [
+    {
+      "apk": "/Volumes/ORICO/kemi/kwallpagers/project/kemi-s1-20260825/kwallpagers-douyin-screensaver/screensaver/release/KEMI双屏屏保-v1.0.8-draft.apk",
+      "package": "com.kemi.dualscreensaver",
+      "version": "1.0.8-draft",
+      "code": 10008,
+      "bytes": 107416,
+      "sha256": "5eb99b6514fbe33e46eecc4a1fb3edd415b920d583d68d14c22fe08fa9e21245",
+      "certificate_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8"
+    },
+    {
+      "apk": "/Volumes/ORICO/kemi/kwallpagers/project/kemi-s1-20260825/kwallpagers-douyin-screensaver/screensaver/release/KEMI双屏屏保服务-v1.0.8-draft.apk",
+      "package": "com.kemi.dualscreensaver.service",
+      "version": "1.0.8-draft",
+      "code": 10008,
+      "bytes": 26911900,
+      "sha256": "fededa258075d19d7231007222100afc831580f9e8677c533e765c6e4c950006",
+      "certificate_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8"
+    }
+  ]
+}

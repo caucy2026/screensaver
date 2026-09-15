@@ -1,0 +1,35 @@
+{
+  "model": "Real-ESRGAN realesr-general-x4v3",
+  "weights_sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+  "native": [
+    1080,
+    1920
+  ],
+  "crop": [
+    0,
+    336,
+    1080,
+    1440
+  ],
+  "scale": 4,
+  "enhanced": [
+    4320,
+    5760
+  ],
+  "logical_master": [
+    1920,
+    2560
+  ],
+  "resize": "Lanczos",
+  "tile": [
+    540,
+    480
+  ],
+  "overlap": 24,
+  "precision": "MPS FP16",
+  "frames": 569,
+  "fps": 30,
+  "audio": false,
+  "elapsed_seconds": 947.7646079063416,
+  "note": "AI enlargement does not imply native high-resolution detail."
+}

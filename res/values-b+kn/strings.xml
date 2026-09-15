@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">ಕ್ರೀಡಾ ಭಾವಚಿತ್ರ · Douyin AI</string>
+  <string name="pending">ವೀಡಿಯೊ ಇನ್ನೂ ಆಮದು ಆಗಿಲ್ಲ</string>
+  <string name="enable">ಸ್ಕ್ರೀನ್‌ಸೇವರ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="preview">ಈಗ ಪ್ರಾರಂಭಿಸಿ</string>
+  <string name="system_settings">ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+  <string name="enabled">ಸ್ಕ್ರೀನ್‌ಸೇವರ್ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+  <string name="error">ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ಸೇವೆ ಮತ್ತು ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+  <string name="description">ಶಬ್ದವಿಲ್ಲದ ಪುನರಾವರ್ತನೆ. ನಿರ್ಗಮಿಸಲು ಯಾವುದೇ ಪರದೆಯನ್ನು ಸ್ಪರ್ಶಿಸಿ.</string>
+  <string name="silver_title">ಬೆಳ್ಳಿ ಆಭರಣಗಳು</string>
+  <string name="exit_button">ನಿರ್ಗಮಿಸಿ</string>
+  <string name="playlist_rule">ಪ್ರತಿ ಬಾರಿ A ಅಥವಾ C ಯಾದೃಚ್ಛಿಕವಾಗಿ ಆಯ್ಕೆಯಾಗಿ ನಿರ್ಗಮಿಸುವವರೆಗೆ ಅದೇ ವೀಡಿಯೊ ಪುನರಾವರ್ತಿಸುತ್ತದೆ.</string>
+  <string name="spring_title">ವಸಂತ ನೃತ್ಯ</string>
+</resources>

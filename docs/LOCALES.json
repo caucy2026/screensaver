@@ -1,0 +1,218 @@
+[
+  {
+    "tag": "en",
+    "resource": "values"
+  },
+  {
+    "tag": "zh-Hans",
+    "resource": "values-zh"
+  },
+  {
+    "tag": "zh-Hant",
+    "resource": "values-b+zh+Hant"
+  },
+  {
+    "tag": "ja",
+    "resource": "values-b+ja"
+  },
+  {
+    "tag": "ko",
+    "resource": "values-b+ko"
+  },
+  {
+    "tag": "fr",
+    "resource": "values-b+fr"
+  },
+  {
+    "tag": "de",
+    "resource": "values-b+de"
+  },
+  {
+    "tag": "es",
+    "resource": "values-b+es"
+  },
+  {
+    "tag": "pt",
+    "resource": "values-b+pt"
+  },
+  {
+    "tag": "it",
+    "resource": "values-b+it"
+  },
+  {
+    "tag": "ru",
+    "resource": "values-b+ru"
+  },
+  {
+    "tag": "ar",
+    "resource": "values-b+ar"
+  },
+  {
+    "tag": "hi",
+    "resource": "values-b+hi"
+  },
+  {
+    "tag": "bn",
+    "resource": "values-b+bn"
+  },
+  {
+    "tag": "ur",
+    "resource": "values-b+ur"
+  },
+  {
+    "tag": "id",
+    "resource": "values-in"
+  },
+  {
+    "tag": "ms",
+    "resource": "values-b+ms"
+  },
+  {
+    "tag": "vi",
+    "resource": "values-b+vi"
+  },
+  {
+    "tag": "th",
+    "resource": "values-b+th"
+  },
+  {
+    "tag": "tr",
+    "resource": "values-b+tr"
+  },
+  {
+    "tag": "fa",
+    "resource": "values-b+fa"
+  },
+  {
+    "tag": "he",
+    "resource": "values-iw"
+  },
+  {
+    "tag": "nl",
+    "resource": "values-b+nl"
+  },
+  {
+    "tag": "pl",
+    "resource": "values-b+pl"
+  },
+  {
+    "tag": "uk",
+    "resource": "values-b+uk"
+  },
+  {
+    "tag": "ro",
+    "resource": "values-b+ro"
+  },
+  {
+    "tag": "cs",
+    "resource": "values-b+cs"
+  },
+  {
+    "tag": "hu",
+    "resource": "values-b+hu"
+  },
+  {
+    "tag": "el",
+    "resource": "values-b+el"
+  },
+  {
+    "tag": "sv",
+    "resource": "values-b+sv"
+  },
+  {
+    "tag": "da",
+    "resource": "values-b+da"
+  },
+  {
+    "tag": "fi",
+    "resource": "values-b+fi"
+  },
+  {
+    "tag": "nb",
+    "resource": "values-b+nb"
+  },
+  {
+    "tag": "sk",
+    "resource": "values-b+sk"
+  },
+  {
+    "tag": "bg",
+    "resource": "values-b+bg"
+  },
+  {
+    "tag": "hr",
+    "resource": "values-b+hr"
+  },
+  {
+    "tag": "sr",
+    "resource": "values-b+sr"
+  },
+  {
+    "tag": "sl",
+    "resource": "values-b+sl"
+  },
+  {
+    "tag": "lt",
+    "resource": "values-b+lt"
+  },
+  {
+    "tag": "lv",
+    "resource": "values-b+lv"
+  },
+  {
+    "tag": "et",
+    "resource": "values-b+et"
+  },
+  {
+    "tag": "fil",
+    "resource": "values-b+fil"
+  },
+  {
+    "tag": "sw",
+    "resource": "values-b+sw"
+  },
+  {
+    "tag": "ta",
+    "resource": "values-b+ta"
+  },
+  {
+    "tag": "te",
+    "resource": "values-b+te"
+  },
+  {
+    "tag": "mr",
+    "resource": "values-b+mr"
+  },
+  {
+    "tag": "gu",
+    "resource": "values-b+gu"
+  },
+  {
+    "tag": "kn",
+    "resource": "values-b+kn"
+  },
+  {
+    "tag": "ml",
+    "resource": "values-b+ml"
+  },
+  {
+    "tag": "pa",
+    "resource": "values-b+pa"
+  },
+  {
+    "tag": "ne",
+    "resource": "values-b+ne"
+  },
+  {
+    "tag": "si",
+    "resource": "values-b+si"
+  },
+  {
+    "tag": "my",
+    "resource": "values-b+my"
+  },
+  {
+    "tag": "km",
+    "resource": "values-b+km"
+  }
+]

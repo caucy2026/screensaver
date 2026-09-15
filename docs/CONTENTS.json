@@ -1,0 +1,29 @@
+{
+  "selection": "Uniform random once per screensaver session; chosen content loops until exit",
+  "contents": [
+    {
+      "id": 1,
+      "stem": "silver",
+      "name_resource": "silver_title",
+      "source": "Original wallpaper set32"
+    },
+    {
+      "id": 2,
+      "stem": "douyin",
+      "name_resource": "douyin_title",
+      "source": "https://v.douyin.com/S-z5FAJTvBA/"
+    },
+    {
+      "id": 3,
+      "stem": "spring",
+      "name_resource": "spring_title",
+      "source": "https://m.toutiao.com/is/6QAOtLB5Br4/"
+    }
+  ],
+  "active_ids": [
+    1,
+    3
+  ],
+  "fps": 24,
+  "max_loop_seconds": 12
+}

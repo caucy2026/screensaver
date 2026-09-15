@@ -1,0 +1,1 @@
+Built-in ImageGen. Blue-dominant Apple-like refined app icon, soft rounded translucent glass dual screens, cobalt/azure smooth gradient, subtle flowing light, no text or logos. Generated source copied unchanged to res/drawable-nodpi/launcher_blue_glass.png.

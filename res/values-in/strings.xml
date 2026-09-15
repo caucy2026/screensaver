@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Potret olahraga · Douyin AI</string>
+  <string name="pending">Video belum diimpor</string>
+  <string name="enable">Aktifkan screensaver</string>
+  <string name="preview">Mulai sekarang</string>
+  <string name="system_settings">Setelan sistem</string>
+  <string name="enabled">Screensaver diaktifkan</string>
+  <string name="error">Tidak dapat menyelesaikan. Periksa layanan dan setelan sistem.</string>
+  <string name="description">Putar ulang tanpa suara. Sentuh salah satu layar untuk keluar.</string>
+  <string name="silver_title">Perhiasan perak</string>
+  <string name="exit_button">Keluar</string>
+  <string name="playlist_rule">Setiap awal memilih A atau C secara acak dan mengulang video itu hingga keluar.</string>
+  <string name="spring_title">Tarian musim semi</string>
+</resources>

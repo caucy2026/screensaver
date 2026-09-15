@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">KEMI双屏屏保</string>
+  <string name="douyin_title">Spor portresi · Douyin AI</string>
+  <string name="pending">Video henüz içe aktarılmadı</string>
+  <string name="enable">Ekran koruyucuyu etkinleştir</string>
+  <string name="preview">Şimdi başlat</string>
+  <string name="system_settings">Sistem ayarları</string>
+  <string name="enabled">Ekran koruyucu etkin</string>
+  <string name="error">Tamamlanamadı. Hizmeti ve sistem ayarlarını kontrol edin.</string>
+  <string name="description">Sessiz döngü. Çıkmak için iki ekrandan birine dokunun.</string>
+  <string name="silver_title">Gümüş takılar</string>
+  <string name="exit_button">Çıkış</string>
+  <string name="playlist_rule">Her başlangıçta rastgele A veya C seçilir ve çıkana kadar o video tekrarlanır.</string>
+  <string name="spring_title">Bahar dansı</string>
+</resources>

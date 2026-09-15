@@ -1,0 +1,28 @@
+{
+  "url": "https://www.toutiao.com/video/7658473047720771624/",
+  "share_url": "https://m.toutiao.com/is/2y58ZB9ne0k/",
+  "source_sha256": "ef25de035a0d6ebd35f1d45f9e5a76bd36ea9a5db6242ce73bb9c3fab6aaa7d8",
+  "native_resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration": 29.3,
+  "model_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+  "model_sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+  "copied_from_commit": "12bb59f6707f86dfbef4dc515e2156b1bd063a0e",
+  "original_asset": "assets/set32_video.mp4",
+  "copy": "screensaver/assets/silver_video.mp4",
+  "new_ai_processing": false,
+  "logical_dimensions": [
+    1920,
+    2560
+  ],
+  "stored_dimensions": [
+    2560,
+    1920
+  ],
+  "prior_1_0_2_sha256": "9cd9b1af1ad8dec9006b2611d110cef4a474db2fe167f27eabcf444a1e097545",
+  "new_sha256": "b7174b02ee45130799f9974b46e0454855f39673920d81fb2ffb5595db5c5500",
+  "derivation_1_0_3": "Original set32 frames 501..572, 9-frame crossfade, output 63 frames / 2.1s; original wallpaper unchanged"
+}
