@@ -43,6 +43,7 @@ public final class SettingsActivity extends Activity {
     }
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        ScreensaverUpgradeReceiver.migrate(this);
         LinearLayout page=new LinearLayout(this); page.setOrientation(LinearLayout.VERTICAL); page.setBackgroundColor(0xfff5f5f7);
         LinearLayout root=new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(dp(28),dp(12),dp(28),dp(12));
         page.addView(root,new LinearLayout.LayoutParams(-1,-1));

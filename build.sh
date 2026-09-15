@@ -23,27 +23,18 @@ SUFFIX=release
 VERSION="$SCREENSAVER_VERSION_NAME"
 if [[ "${ALLOW_INCOMPLETE:-0}" == 1 ]]; then SUFFIX=draft; VERSION="$VERSION-draft"; fi
 if [[ "${SIGN_APKS:-1}" != 1 ]]; then SUFFIX="$SUFFIX-unsigned"; fi
-mkdir -p "$STAGE/ui/assets" "$STAGE/service/assets"
-for item in 1:silver 2:douyin 3:spring; do
+mkdir -p "$STAGE/app/assets"
+for item in 1:silver 3:spring; do
   id="${item%%:*}"; stem="${item#*:}"
-  if [[ -f "$APP_DIR/assets/${stem}_video.mp4" && -f "$APP_DIR/assets/preview_${stem}.jpg" && -f "$APP_DIR/assets/${stem}_d2.png" && -f "$APP_DIR/assets/${stem}_d0.png" ]]; then
-    cp "$APP_DIR/assets/${stem}_video.mp4" "$APP_DIR/assets/${stem}_d2.png" "$APP_DIR/assets/${stem}_d0.png" "$STAGE/service/assets/"
-    cp "$APP_DIR/assets/preview_${stem}.jpg" "$STAGE/ui/assets/"
-    printf '1' > "$STAGE/service/assets/ready_$id"
-    cp "$STAGE/service/assets/ready_$id" "$STAGE/ui/assets/"
-  fi
+  cp "$APP_DIR/assets/${stem}_video.mp4" "$APP_DIR/assets/${stem}_d2.png" "$APP_DIR/assets/${stem}_d0.png" "$APP_DIR/assets/preview_${stem}.jpg" "$STAGE/app/assets/"
+  printf '1' > "$STAGE/app/assets/ready_$id"
 done
 "$TOOLS/aapt2" compile --dir "$APP_DIR/res" -o "$STAGE/resources.zip"
 SRC="$APP_DIR/src/com/kemi/dualscreensaver"
-for kind in ui service; do
+for kind in app; do
   mkdir -p "$STAGE/$kind/classes" "$STAGE/$kind/dex"
-  if [[ "$kind" == ui ]]; then
-    SOURCES=("$SRC/SettingsActivity.java" "$SRC/ScreensaverCatalog.java")
-    MANIFEST="$APP_DIR/AndroidManifest.xml"; NAME=KEMI双屏屏保
-  else
-    SOURCES=("$SRC/ScreensaverPanelActivity.java" "$SRC/PlaybackSequence.java" "$SRC/ScreensaverDreamService.java" "$SRC/ScreensaverRenderer.java" "$SRC/ScreensaverCatalog.java" "$SRC/WallpaperLayout.java" "$SRC/VideoFrameLayout.java")
-    MANIFEST="$APP_DIR/AndroidManifest-service.xml"; NAME=KEMI双屏屏保服务
-  fi
+  SOURCES=("$SRC"/*.java)
+  MANIFEST="$APP_DIR/AndroidManifest.xml"; NAME=KEMI双屏屏保
   javac -source 8 -target 8 -classpath "$ANDROID_JAR" -d "$STAGE/$kind/classes" "${SOURCES[@]}"
   CLASSES=(); while IFS= read -r file; do CLASSES+=("$file"); done < <(find "$STAGE/$kind/classes" -name '*.class')
   "$TOOLS/d8" --min-api 26 --lib "$ANDROID_JAR" --output "$STAGE/$kind/dex" "${CLASSES[@]}"

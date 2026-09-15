@@ -15,7 +15,7 @@ public final class ScreensaverCatalog {
         return android.provider.Settings.Secure.putInt(context.getContentResolver(),CHOICE_KEY,id);
     }
     public static int[] activeIds() { return new int[]{1,3}; }
-    public static final String SERVICE_PACKAGE="com.kemi.dualscreensaver.service";
+    public static final String SERVICE_PACKAGE="com.kemi.dualscreensaver";
     public static boolean valid(int id) { return id>=1 && id<=COUNT; }
     public static boolean isVideo(int id) { return valid(id); }
     public static String stem(int id) {

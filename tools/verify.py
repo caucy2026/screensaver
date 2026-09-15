@@ -35,12 +35,13 @@ if required_missing and not (len(sys.argv)>1 and sys.argv[1]=='1'):
 print('PASS: 54 screen-saver locales; independent assets. Missing:',missing)
 
 ns={'a':'http://schemas.android.com/apk/res/android'}
-ui=E.parse(p/'AndroidManifest.xml').getroot(); service=E.parse(p/'AndroidManifest-service.xml').getroot()
-assert ui.attrib['package']=='com.kemi.dualscreensaver'
-assert service.attrib['package']=='com.kemi.dualscreensaver.service'
-dream=service.find('application/service'); assert dream.attrib['{'+ns['a']+'}permission']=='android.permission.BIND_DREAM_SERVICE'
-assert service.find('application/service/intent-filter/action').attrib['{'+ns['a']+'}name']=='android.service.dreams.DreamService'
-assert service.find('application/receiver') is None
-assert service.find('permission') is None
-assert 'WallpaperService' not in (p/'AndroidManifest-service.xml').read_text()
-print('PASS: separate packages, DreamService binding and no cross-package manual selection')
+manifest=E.parse(p/'AndroidManifest.xml').getroot()
+assert manifest.attrib['package']=='com.kemi.dualscreensaver'
+dream=manifest.find('application/service')
+assert dream.attrib['{'+ns['a']+'}permission']=='android.permission.BIND_DREAM_SERVICE'
+assert dream.find('intent-filter/action').attrib['{'+ns['a']+'}name']=='android.service.dreams.DreamService'
+activities=manifest.findall('application/activity')
+selector=next(a for a in activities if a.attrib['{'+ns['a']+'}name']=='.SettingsActivity')
+assert selector.attrib['{'+ns['a']+'}process']==':settings'
+assert 'WallpaperService' not in (p/'AndroidManifest.xml').read_text()
+print('PASS: single APK; selector process isolated from shared playback process')
